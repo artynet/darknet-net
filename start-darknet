@@ -1,2 +1,2 @@
 #! /bin/sh
-./darknet detector demo cfg/voc.data cfg/yolo-voc.cfg yolo-voc.weights -c 1 -address "ws://echo.websocket.org" -coord lrtb
+./darknet detector demo cfg/voc.data cfg/yolo-voc.cfg yolo-voc.weights -c -1 -address "ws://echo.websocket.org" -coord lrtb
